@@ -18,3 +18,15 @@ The length of all of the edges does not matter. As long as the edges link the sa
 
 Vertices: Facebook Users (typically represent the data)
 Edges: Friendship relationship (or lack thereof), connect User A and B if A&B are friends.
+
+In this case, the friendship relationship is transitive, direction is not needed. Weight is also not necessary, as friendship is a boolean at this point.
+
+Density is the measure of how many edges we have in comparison to the number of vertices we have total.
+
+|V| = # of vertices.
+
+|E| = # of edges.
+
+Density = |E|/(|V| * (|V|-1))
+
+The above formula allows the density to be bound from 0 to 1.
