@@ -30,3 +30,10 @@ Density is the measure of how many edges we have in comparison to the number of 
 Density = |E|/(|V| * (|V|-1))
 
 The above formula allows the density to be bound from 0 to 1.
+
+In a directed graph, the number of Ins doubles, also causing the max density to also double to 2.
+
+## Twitter Example
+
+Vertices: Twitter Users
+Edges: Follows
