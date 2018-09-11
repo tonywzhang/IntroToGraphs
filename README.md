@@ -36,4 +36,18 @@ In a directed graph, the number of Ins doubles, also causing the max density to 
 ## Twitter Example
 
 Vertices: Twitter Users
-Edges: Follows
+Edges: Follows, Following, Both (Implies Direction is required)
+
+(ie: A ===> B if A is following B)
+
+## Tree Example
+
+A graph can be a tree if it has n vertices, and n-1 Edges
+
+With these conditions, it means we never have any cycles in our tree. It means we'll never start at one vertex and end at the same one.
+
+Tree EX: The DOM itself.
+Vertices: DOM elements
+Edges: Parent - Children elements
+
+Normally, there would be directions between Parent and Child elements, but in this case it is implied and understood. No need to label it explicitly.
